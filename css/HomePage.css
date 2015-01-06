@@ -1,7 +1,23 @@
-@font-face {
-    font-family: myFont;
-    src: url(../fonts/calibri/calibri.ttf);
+
+/*-----------------FONT------------------*/
+
+
+@font-face{
+	font-family: callibrib;
+	src: url(../fonts/calibri/calibrib.ttf);
 }
+@font-face{
+	font-family: callibriit;
+	src: url(../fonts/calibri/calibrii.ttf);
+}
+@font-face{
+	font-family: callibri;
+	src: url(../fonts/calibri/calibri.ttf);
+}
+
+
+/*------------------------------------------*/
+/*--------------------HEADER----------------*/
 
 
 
@@ -19,37 +35,7 @@ header
 	position: relative;
 	width:100%;
 }
-#topMenu
-{
-	width: 1024px;
-	margin-left: 0px;
-	margin-top:5px; 
-	background: url(../images/topmenu_bg.png);
-    background-repeat: repeat;
-    height: 50px;
-    float:left;
-}
 
-
-#topMenu  a
-{
-  	
-  float: left;
-  font-family:myFont !important; 
-  font-size: 16px;
-  color: #ffffff;
-  text-decoration: none;
-  padding: 0px 10px;
-}
-#topMenu li 
-{
-	border-right: 2px solid #ffffff!important;
-   border-right-width: thin;
-   border-right-style: inset;
-	list-style-type: none;
-	position: relative;
-	
-}
 
 #searchBox
 {
@@ -64,19 +50,19 @@ header
 	clear:both;
 }
 #searchBox::-webkit-input-placeholder {
-    font-family: 'myFont';
+    font-family: 'callibri';
      }
 
 #searchBox:-ms-input-placeholder {
-    font-family: 'myFont';
+    font-family: 'callibri';
 }
 
 #searchBox:-moz-placeholder {
-    font-family: 'myFont';
+    font-family: 'callibri';
 }
 
 #searchBox::-moz-placeholder {
-    font-family: 'myFont';
+    font-family: 'callibri';
 }
 
 
@@ -90,7 +76,7 @@ header
 #headerMenu  a
 {
 	text-decoration: none;
-	font-family:myFont;
+	font-family:callibri;
 	color:#5E5E52;
 	font-size: 14px;
 	
@@ -119,15 +105,140 @@ header
 {
    background : url(../images/socialIcon_top.png) 386px 297px;	
 }
-#fb
+#facebook
 {
 	background : url(../images/socialIcon_top.png) 354px 297px;
 }
-#in
+#instagram
 {
 	background: url(../images/socialIcon_top.png) 323px 297px;
 }
-#twt
+#twitter
 {
 	background: url(../images/socialIcon_top.png) 289px 297px;
 }
+/*-------------------------------------------------*/
+
+
+/*---------------TOP MENU-------------------------*/
+#topMenu
+{
+	width: 1024px;
+	margin-left: 0px;
+	margin-top:5px; 
+	background: url(../images/topmenu_bg.png);
+    background-repeat: repeat;
+    height: 50px;
+    float:left;
+}
+
+
+#topMenu  a
+{
+  	
+  float: left;
+  font-family:callibri !important; 
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0px 10px;
+}
+#topMenu li 
+{
+	border-right: 2px solid #ffffff!important;
+   border-right-width: thin;
+   border-right-style: inset;
+	list-style-type: none;
+	position: relative;
+	
+}
+/*-----------------------------------------------*/
+/*------------FOOTER-----------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+#foot {
+    background-color: #5A5A5A;
+    float: left;
+    width: 100%;
+}
+.footTitle {
+    font-family: callibrib;
+    font-size: 18px;
+}
+#otherNav{
+	padding: 0 15px;
+}
+#title{
+	margin: 0 auto;
+    width: 1024px;
+    
+}
+#about {
+    float: left;
+    padding: 10px 25px;
+    font-size: 15px;
+    font-family: callibriit;
+}
+#other {
+    float: left;
+    padding: 10px 25px;
+    font-size: 15px;
+    font-family: callibriit;
+}
+#connect {
+    float: left;
+    padding: 10px 25px;
+    font-size: 15px;
+    font-family: callibriit;
+}
+.socialIcon {
+    display: inline;
+}
+#yt {
+    background-image: url("../images/socialIcon_bottom.png");
+    padding: 6px 15px;
+}
+#fb {
+    background-image: url("../images/socialIcon_bottom.png");
+    background-position: -34px 0;
+    padding: 6px 15px;
+}
+#in {
+    background-image: url("../images/socialIcon_bottom.png");
+    background-position: -66px 0;
+    padding: 6px 15px;
+}
+#twt {
+    background-image: url("../images/socialIcon_bottom.png");
+    background-position: 29px 0;
+    padding: 6px 15px;
+}
+#contact {
+    float: left;
+    padding: 10px 25px;
+    font-size: 15px;
+    font-family: callibriit;
+}
+#bottomFoot {
+    background: none repeat scroll 0 0 #000000;
+    float: left;
+    padding: 10px 0;
+    width: 100%;
+    font-family: callibri;
+    font-size: 13px;
+}
+#copyRight {
+    margin-left: 128px;
+    margin-right: 222px;
+}
+.bottomNav {
+    padding: 0 45px;
+}
+
+footer {
+    background: none repeat scroll 0 0 #000000;
+    color: #FFFFFF;
+}
+/*----------------------------------------------*/
