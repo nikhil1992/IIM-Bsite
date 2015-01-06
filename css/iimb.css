@@ -1,0 +1,81 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+	font-family: callibrib;
+	src: url(model/fonts/calibri/calibrib.ttf);
+}
+@font-face{
+	font-family: callibriit;
+	src: url(model/fonts/calibri/calibrii.ttf);
+}
+@font-face{
+	font-family: callibri;
+	src: url(model/fonts/calibri/calibri.ttf);
+}
+#foot {
+    background-color: #5A5A5A;
+    float: left;
+    width: 100%;
+}
+#about {
+    float: left;
+    margin-left: 128px;
+    padding: 10px 25px;
+}
+#other {
+    float: left;
+    padding: 10px 25px;
+}
+#connect {
+    float: left;
+    padding: 10px 25px;
+}
+.socialIcon {
+    display: inline;
+}
+#yt {
+    background-image: url("model/images/socialIcon_bottom.png");
+    padding: 5px 15px;
+}
+#fb {
+    background-image: url("model/images/socialIcon_bottom.png");
+    background-position: -34px 0;
+    padding: 5px 15px;
+}
+#in {
+    background-image: url("model/images/socialIcon_bottom.png");
+    background-position: -66px 0;
+    padding: 5px 15px;
+}
+#twt {
+    background-image: url("model/images/socialIcon_bottom.png");
+    background-position: 29px 0;
+    padding: 5px 15px;
+}
+#contact {
+    float: left;
+    padding: 10px 25px;
+}
+#bottomFoot {
+    background: none repeat scroll 0 0 #000000;
+    float: left;
+    padding: 10px 0;
+    width: 100%;
+    font-family: callibri;
+    font-size: 13px;
+}
+#copyRight {
+    margin-left: 128px;
+    margin-right: 222px;
+}
+.bottomNav {
+    padding: 0 45px;
+}
+
+footer {
+    background: none repeat scroll 0 0 #000000;
+    color: #FFFFFF;
+}
