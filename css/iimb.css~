@@ -5,78 +5,59 @@
 }
 @font-face{
 	font-family: callibrib;
-	src: url(../fonts/calibri/calibrib.ttf);
+	src: url(model/fonts/calibri/calibrib.ttf);
 }
 @font-face{
 	font-family: callibriit;
-	src: url(../fonts/calibri/calibrii.ttf);
+	src: url(model/fonts/calibri/calibrii.ttf);
 }
 @font-face{
 	font-family: callibri;
-	src: url(../fonts/calibri/calibri.ttf);
+	src: url(model/fonts/calibri/calibri.ttf);
 }
 #foot {
     background-color: #5A5A5A;
     float: left;
     width: 100%;
 }
-.footTitle {
-    font-family: callibrib;
-    font-size: 18px;
-}
-#otherNav{
-	padding: 0 15px;
-}
-#title{
-	margin: 0 auto;
-    width: 1024px;
-    
-}
 #about {
     float: left;
+    margin-left: 128px;
     padding: 10px 25px;
-    font-size: 15px;
-    font-family: callibriit;
 }
 #other {
     float: left;
     padding: 10px 25px;
-    font-size: 15px;
-    font-family: callibriit;
 }
 #connect {
     float: left;
     padding: 10px 25px;
-    font-size: 15px;
-    font-family: callibriit;
 }
 .socialIcon {
     display: inline;
 }
 #yt {
-    background-image: url("../images/socialIcon_bottom.png");
-    padding: 6px 15px;
+    background-image: url("model/images/socialIcon_bottom.png");
+    padding: 5px 15px;
 }
 #fb {
-    background-image: url("../images/socialIcon_bottom.png");
+    background-image: url("model/images/socialIcon_bottom.png");
     background-position: -34px 0;
-    padding: 6px 15px;
+    padding: 5px 15px;
 }
 #in {
-    background-image: url("../images/socialIcon_bottom.png");
+    background-image: url("model/images/socialIcon_bottom.png");
     background-position: -66px 0;
-    padding: 6px 15px;
+    padding: 5px 15px;
 }
 #twt {
-    background-image: url("../images/socialIcon_bottom.png");
+    background-image: url("model/images/socialIcon_bottom.png");
     background-position: 29px 0;
-    padding: 6px 15px;
+    padding: 5px 15px;
 }
 #contact {
     float: left;
     padding: 10px 25px;
-    font-size: 15px;
-    font-family: callibriit;
 }
 #bottomFoot {
     background: none repeat scroll 0 0 #000000;
