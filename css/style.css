@@ -217,11 +217,31 @@ header
 
 
 
+#contentMain {
+    width: 1024px;
+    margin: 0 auto;
+}
+.mainHead {
+     float: left;
+    width: 333px;
+     margin-right: 8px;
+}
 
-
-
-
-
+.contentImage{
+    width: 333px;
+    height: 223px;
+}
+#contentMain a{
+    text-decoration: none;
+}
+.moreClick{
+    float: right;
+}
+.description {
+    border-bottom: medium dotted;
+    margin-bottom: 20px;
+    padding: 20px 0;
+}
 
 
 
