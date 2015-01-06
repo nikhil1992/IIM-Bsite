@@ -141,15 +141,15 @@ header
   font-size: 16px;
   color: #ffffff;
   text-decoration: none;
-  padding: 0px 10px;
+  padding: 15px 10px;
 }
 #topMenu li 
-{
-	border-right: 2px solid #ffffff!important;
-   border-right-width: thin;
-   border-right-style: inset;
-	list-style-type: none;
-	position: relative;
+{ border-right-color: #838383 !important;
+    border-right-style: solid;
+    border-right-width: 0.1px;
+    float: left;
+    list-style-type: none;
+    position: relative;
 	
 }
 /*-----------------------------------------------*/
@@ -159,7 +159,7 @@ header
     padding: 0;
 }
 #foot {
-    background-color: #5A5A5A;
+    background-color: #3A3A3A;
     float: left;
     width: 100%;
 }
@@ -177,19 +177,22 @@ header
 }
 #about {
     float: left;
-    padding: 10px 25px;
+    padding: 10px 10px;
     font-size: 15px;
     font-family: callibriit;
 }
+#more{
+    color: #FF9C31;
+}
 #other {
     float: left;
-    padding: 10px 25px;
+    padding: 10px 20px;
     font-size: 15px;
     font-family: callibriit;
 }
 #connect {
     float: left;
-    padding: 10px 25px;
+    padding: 10px 20px;
     font-size: 15px;
     font-family: callibriit;
 }
@@ -217,7 +220,7 @@ header
 }
 #contact {
     float: left;
-    padding: 10px 25px;
+    padding: 10px 20px;
     font-size: 15px;
     font-family: callibriit;
 }
@@ -229,12 +232,16 @@ header
     font-family: callibri;
     font-size: 13px;
 }
+
+#socialNav {
+    margin-top: 10px;
+}
 #copyRight {
-    margin-left: 128px;
-    margin-right: 222px;
+     margin-left: 140px;
+    margin-right: 210px;
 }
 .bottomNav {
-    padding: 0 45px;
+    padding: 0 30px;
 }
 
 footer {
