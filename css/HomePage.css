@@ -1,0 +1,133 @@
+@font-face {
+    font-family: myFont;
+    src: url(../fonts/calibri/calibri.ttf);
+}
+
+
+
+.wrapper
+{
+	margin:0 auto;
+	width:1024px;
+	position: relative;
+}
+header
+{
+	height: auto;
+	float: left;
+	margin-top: 10px;
+	position: relative;
+	width:100%;
+}
+#topMenu
+{
+	width: 1024px;
+	margin-left: 0px;
+	margin-top:5px; 
+	background: url(../images/topmenu_bg.png);
+    background-repeat: repeat;
+    height: 50px;
+    float:left;
+}
+
+
+#topMenu  a
+{
+  	
+  float: left;
+  font-family:myFont !important; 
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0px 10px;
+}
+#topMenu li 
+{
+	border-right: 2px solid #ffffff!important;
+   border-right-width: thin;
+   border-right-style: inset;
+	list-style-type: none;
+	position: relative;
+	
+}
+
+#searchBox
+{
+	background-repeat: no-repeat;
+	float: right;
+	margin-top: 2%;
+	background-image: url(../images/search_icon.png);
+	background-position: 96% 34%; 
+	border-radius: 8px;
+	border: 2px solid #BFBF9E;
+	height: 5%;
+	clear:both;
+}
+#searchBox::-webkit-input-placeholder {
+    font-family: 'myFont';
+     }
+
+#searchBox:-ms-input-placeholder {
+    font-family: 'myFont';
+}
+
+#searchBox:-moz-placeholder {
+    font-family: 'myFont';
+}
+
+#searchBox::-moz-placeholder {
+    font-family: 'myFont';
+}
+
+
+#headerMenu
+{
+	margin-top: 2%;
+	float:right;
+	clear: both;
+	width: 36%;
+}
+#headerMenu  a
+{
+	text-decoration: none;
+	font-family:myFont;
+	color:#5E5E52;
+	font-size: 14px;
+	
+}
+#headerMenu  li
+{
+	float:left;
+	border-right: 0.25px solid #5E5E52;
+    list-style-type: none;
+
+	padding: 0 2%;
+}
+	 
+.socialIcon_top
+
+{
+	margin-top:3%;
+	float:right;
+}
+.socialIcon
+{
+	width: 33px;
+	height: 32px;
+}
+#youtube
+{
+   background : url(../images/socialIcon_top.png) 386px 297px;	
+}
+#fb
+{
+	background : url(../images/socialIcon_top.png) 354px 297px;
+}
+#in
+{
+	background: url(../images/socialIcon_top.png) 323px 297px;
+}
+#twt
+{
+	background: url(../images/socialIcon_top.png) 289px 297px;
+}
