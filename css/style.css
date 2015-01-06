@@ -99,23 +99,23 @@ header
 .socialIcon
 {
 	width: 33px;
-	height: 32px;
+	height: 31px;
 }
 #youtube
 {
-   background : url(../images/socialIcon_top.png) 386px 297px;	
+   background : url(../images/socialIcon_top.png) 386px 296px;	
 }
 #facebook
 {
-	background : url(../images/socialIcon_top.png) 354px 297px;
+	background : url(../images/socialIcon_top.png) 354px 296px;
 }
 #instagram
 {
-	background: url(../images/socialIcon_top.png) 323px 297px;
+	background: url(../images/socialIcon_top.png) 323px 296px;
 }
 #twitter
 {
-	background: url(../images/socialIcon_top.png) 289px 297px;
+	background: url(../images/socialIcon_top.png) 289px 296px;
 }
 /*-------------------------------------------------*/
 
