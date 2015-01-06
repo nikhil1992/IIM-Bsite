@@ -34,19 +34,19 @@
 }
 #about {
     float: left;
-    padding: 10px 25px;
+    padding: 10px 20px;
     font-size: 15px;
     font-family: callibriit;
 }
 #other {
     float: left;
-    padding: 10px 25px;
+    padding: 10px 20px;
     font-size: 15px;
     font-family: callibriit;
 }
 #connect {
     float: left;
-    padding: 10px 25px;
+    padding: 10px 20px;
     font-size: 15px;
     font-family: callibriit;
 }
@@ -74,7 +74,7 @@
 }
 #contact {
     float: left;
-    padding: 10px 25px;
+    padding: 10px 20px;
     font-size: 15px;
     font-family: callibriit;
 }
@@ -91,7 +91,7 @@
     margin-right: 222px;
 }
 .bottomNav {
-    padding: 0 45px;
+    padding: 0 40px;
 }
 
 footer {
