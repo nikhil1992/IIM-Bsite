@@ -412,7 +412,7 @@ header
 }
 .innerDivPicSummary
 {
-    float:left;
+    /*float:left;*/
 }
 .innerDivPic
 {
@@ -423,19 +423,19 @@ header
 }
 #innerDivHeading {
     color: #FCFEE9;
-    font-family: georgiaiaz;
+    font-family: georgiaz;
     font-size: 14px;
 }
 #innerDivDescription
 {
-    font-family: helveticaNeue.ttf;
+    font-family: helvetican;
     font-size: 11px;
     color: #ffffff;
 
 }
 #innerDiv2Description
 {
-    font-family: helveticaNeueBold.ttf;
+    font-family: helveticanb;
     font-size: 13px;
     color: #ffffff;
 
