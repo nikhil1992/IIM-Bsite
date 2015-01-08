@@ -546,52 +546,56 @@ header
 }
 #about {
     float: left;
-    padding: 10px 10px;
+    padding: 10px 15px;
     font-size: 15px;
     font-family: callibriit;
+    margin-top: 10px;
 }
 #more{
     color: #FF9C31;
 }
 #other {
     float: left;
-    padding: 10px 20px;
+    padding: 10px 15px;
     font-size: 15px;
     font-family: callibriit;
+    margin-top: 10px;
 }
 #connect {
     float: left;
-    padding: 10px 20px;
+    padding: 10px 15px;
     font-size: 15px;
     font-family: callibriit;
+    margin-top: 10px;
 }
 .socialIcon {
     display: inline;
 }
 #yt {
     background-image: url("../images/socialIcon_bottom.png");
-    padding: 6px 15px;
+    padding: 7px 15px;
 }
 #fb {
     background-image: url("../images/socialIcon_bottom.png");
     background-position: -34px 0;
-    padding: 6px 15px;
+    padding: 7px 15px;
 }
 #in {
     background-image: url("../images/socialIcon_bottom.png");
     background-position: -66px 0;
-    padding: 6px 15px;
+    padding: 7px 15px;
 }
 #twt {
     background-image: url("../images/socialIcon_bottom.png");
     background-position: 29px 0;
-    padding: 6px 15px;
+    padding: 7px 15px;
 }
 #contact {
     float: left;
-    padding: 10px 20px;
+    padding: 10px 15px;
     font-size: 15px;
     font-family: callibriit;
+    margin-top: 10px;
 }
 #bottomFoot {
     background: none repeat scroll 0 0 #000000;
@@ -606,8 +610,8 @@ header
     margin-top: 10px;
 }
 #copyRight {
-     margin-left: 140px;
-    margin-right: 210px;
+    margin-left: 310px;
+    margin-right: 285px;
 }
 .bottomNav {
     padding: 0 30px;
