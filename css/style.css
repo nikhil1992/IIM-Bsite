@@ -28,15 +28,15 @@
 }
 
 @font-face{
-    font-family: georgiaz.ttf;
+    font-family: georgiaz;
     src: url(../fonts/Georgia/georgiaz.ttf);
 }
 @font-face{
-    font-family: helveticaNeue.ttf;
+    font-family: helvetican;
     src: url(../fonts/Helvetica/HelveticaNeueLight.ttf);
 }
 @font-face{
-    font-family: helveticaNeueBold.ttf;
+    font-family: helveticanb;
     src: url(../fonts/Helvetica/helvetica-neue-bold.ttf);
 }
 
@@ -279,8 +279,11 @@ header
 .mainHead {
      float: left;
      width: 333px;
-     margin-right: 8px;
+     margin-right:12px;
      padding: 5px 0;
+}
+.mainHead:last-child {
+    margin-right: 0;
 }
 .mainHead span {
     color: #191B1B;
@@ -288,14 +291,16 @@ header
     font-family: callibrib;
     font-size: 27px;
     padding: 10px 0;
+    text-decoration: none;
 }
+
 .mainHead hr {
     background: none repeat scroll 0 0 #000000;
     float: right;
-    height: 11px;
-    margin-top: 14px;
+    height: 12px;
+    margin-top: 11px;
     opacity: 0.1;
-    width: 236px;
+    width: 234px;
 }
 .contentImage{
     width: 333px;
@@ -304,9 +309,7 @@ header
     border-radius: 5px;
     margin-bottom: 10px;
 }
-#contentMain a{
-    
-}
+
 .moreClick {
     color: #FF6C00;
     float: right;
@@ -381,6 +384,7 @@ header
     font-size: 27px;
     font-family:callibri; 
     color: #ffffff;
+    text-decoration: none;
 }
 .innerWrapper
 {
@@ -417,11 +421,10 @@ header
     margin:10px;
     float: left;
 }
-#innerDivHeading
-{
-   font-family:  georgiaz.ttf;
-   font-size:14px; 
-   color: #ffffff;
+#innerDivHeading {
+    color: #FCFEE9;
+    font-family: georgiaiaz;
+    font-size: 14px;
 }
 #innerDivDescription
 {
@@ -546,52 +549,56 @@ header
 }
 #about {
     float: left;
-    padding: 10px 10px;
+    padding: 10px 15px;
     font-size: 15px;
     font-family: callibriit;
+    margin-top: 10px;
 }
 #more{
     color: #FF9C31;
 }
 #other {
     float: left;
-    padding: 10px 20px;
+    padding: 10px 15px;
     font-size: 15px;
     font-family: callibriit;
+    margin-top: 10px;
 }
 #connect {
     float: left;
-    padding: 10px 20px;
+    padding: 10px 15px;
     font-size: 15px;
     font-family: callibriit;
+    margin-top: 10px;
 }
 .socialIcon {
     display: inline;
 }
 #yt {
     background-image: url("../images/socialIcon_bottom.png");
-    padding: 6px 15px;
+    padding: 7px 15px;
 }
 #fb {
     background-image: url("../images/socialIcon_bottom.png");
     background-position: -34px 0;
-    padding: 6px 15px;
+    padding: 7px 15px;
 }
 #in {
     background-image: url("../images/socialIcon_bottom.png");
     background-position: -66px 0;
-    padding: 6px 15px;
+    padding: 7px 15px;
 }
 #twt {
     background-image: url("../images/socialIcon_bottom.png");
     background-position: 29px 0;
-    padding: 6px 15px;
+    padding: 7px 15px;
 }
 #contact {
     float: left;
-    padding: 10px 20px;
+    padding: 10px 15px;
     font-size: 15px;
     font-family: callibriit;
+    margin-top: 10px;
 }
 #bottomFoot {
     background: none repeat scroll 0 0 #000000;
@@ -606,8 +613,8 @@ header
     margin-top: 10px;
 }
 #copyRight {
-     margin-left: 140px;
-    margin-right: 210px;
+    margin-left: 310px;
+    margin-right: 285px;
 }
 .bottomNav {
     padding: 0 30px;
