@@ -22,8 +22,10 @@
     font-family: OpenSansRegular;
     src: url(../fonts/Open Sans/OpenSans-Regular.ttf);
 }
-
-
+@font-face{
+    font-family: georgiait;
+    src: url(../fonts/Georgia/georgiai.ttf);
+}
 
 /*------------------------------------------*/
 /*--------------------HEADER----------------*/
@@ -142,9 +144,12 @@ header
     float:left;
     margin-bottom: 5px;
 }
+#topMenu > ul{
+ float: left;
+    position: relative;
+}
 
-
-#topMenu  a
+.navLink
 {
   	
   float: left;
@@ -154,14 +159,43 @@ header
   text-decoration: none;
   padding: 15px 10px;
 }
-#topMenu li 
+.navLink:hover{
+    background: #323232;
+
+}
+.subMenu {
+    display: none;
+    
+    list-style-type: none;
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+    }
+ .navMenu:hover > ul{
+    display: block;
+
+}
+.navMenu 
 {   border-right-color: #838383 !important;
     border-right-style: solid;
     border-right-width: 0.1px;
     float: left;
     list-style-type: none;
-    position: relative;
+    
 	
+}
+
+.subMenu > li {
+    background: none repeat scroll 0 0 #323232;
+    border-top: thin inset #7F8080;
+    padding: 15px 5px;
+}
+.subMenu a {
+    color: #FFFFFF;
+    font-family: callibri;
+    font-size: 13px;
+    padding: 0 5px;
+    text-decoration: none;
 }
 /*-----------------------------------------------*/
 
@@ -221,29 +255,71 @@ header
     width: 1024px;
     margin: 0 auto;
 }
+
 .mainHead {
      float: left;
     width: 333px;
      margin-right: 8px;
+     padding: 5px 0;
 }
-
+.mainHead span {
+    color: #191B1B;
+    float: left;
+    font-family: callibrib;
+    font-size: 27px;
+    padding: 10px 0;
+}
+.mainHead hr {
+    background: none repeat scroll 0 0 #000000;
+    float: right;
+    height: 11px;
+    margin-top: 14px;
+    opacity: 0.1;
+    width: 236px;
+}
 .contentImage{
     width: 333px;
     height: 223px;
+    border: medium hidden #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 #contentMain a{
-    text-decoration: none;
+    
 }
-.moreClick{
+.moreClick {
+    color: #FF6C00;
     float: right;
+    font-family: callibriit;
+    font-size: 14px;
+    text-decoration: underline;
+}
+.moreClick img {
+    float: left;
 }
 .description {
     border-bottom: medium dotted;
-    margin-bottom: 20px;
-    padding: 20px 0;
+    color: #888888;
+    font-family: callibriit;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 10px 0;
 }
-
-
+.date {
+    color: #888888;
+    font-family: georgiait;
+    font-size: 14px;
+    text-decoration: none;
+}
+.date img {
+    float: left;
+}
+.description2 {
+    color: #888888;
+    font-family: callibriit;
+    font-size: 14px;
+    padding: 10px 0;
+}
 
 
 
