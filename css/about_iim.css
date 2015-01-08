@@ -17,9 +17,67 @@
 {
 	float: left;
 	width: 63%;
+	margin-top: 22px;
 }
 #aboutLinks
 {
 	float: right;
 	width:29%;
+}
+#aboutHeading
+{
+	font-family: callibri;
+	color:#FF4252;
+	font-size: 28px;
+}
+#aboutDescription
+{
+	font-family: callibri;
+	color:#6A6A6A;
+	font-size: 15px;
+	margin-top: 35px;
+}
+#aboutLinks
+{
+	margin-top: 22px;
+
+}
+#aboutLinks ul
+{
+	list-style-type: none;
+}
+#aboutLinks li 
+{
+	text-decoration: none;
+	border-bottom: 1px solid #D5CDC9;
+	padding: 10px 0px;
+}
+#aboutLinks a 
+{
+	font-family: callibri;
+	color:#00A2F6;
+	font-size: 15px;
+	margin-left: 26px;
+	text-decoration: none;
+}
+#aboutLinks  a:hover
+{
+	color:#F86F61;
+	
+
+}
+.sideLinks .arrowImage
+{
+	visibility: hidden;
+}
+.sideLinks:hover .arrowImage
+{
+	visibility: visible;
+}
+.arrowImage
+{
+	width:20px;
+	height: 10px;
+	margin-right: 14px;
+	
 }
