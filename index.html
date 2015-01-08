@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 	<head>
+		<script type="text/javascript">
+		var slideimages = new Array() 
+			slideimages[0].src = "images/DSC_0266.jpeg" 
+			slideimages[1] = new Image()
+			slideimages[2] = new Image()
+			slideimages[2].src = "images/IMG_3048.jpeg"
+
+		</script>	
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		// <script src="js/slider.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		   <title>
 		   IIM-B Home
@@ -97,7 +106,7 @@
             </nav>
         </div>
 
-        <!-- SLIDER-->
+    <!-- SLIDER-->
 
         <div class="imageSlider">
         	<div class="sliderPicDescription">
@@ -107,20 +116,25 @@
         		<a href="#" id="readMore">Read More</a><br><br><br>
         		<img id="bannerNavIcon" src="images/banner_navigation.png">
         	</div>
-        	<img class="sliderPic" src="images/DSC_0266.jpeg" alt="sliderPic1">
+        	
+        	<a href="javascript:slidelink()"><img  class="sliderPic" src="images/DSC_0266.jpeg" id="slide"></a>
         </div>	
 
- <!--  news,events,features -->
- <div id="contentMain">
+    <!--  NEWS,EVENTS,FEATURES -->
+
+        <div id="contentMain">
  	
- 	<div class="mainHead">
-	 	<span >News<hr></span>
-	 		  <img class="contentImage"src="images/IMG_3048.jpeg">
-	 		  <a class="date" href=""><img src="images/News_icon.png">January 5 2015</a>
+
+ 			<div class="mainHead">
+	 			<h2 ><a href="">News</a></h2>
+	 		 	<img class="contentImage"src="images/IMG_3048.jpeg">
+	 		 	<a class="date" href=""><img src="images/News_icon.png">January 5 2015</a>
+
 		 		<p class="description">
 		 		Lsknn chjdhs phjjgs kgndj werttw sjdjjhdjjdjd mzvnmm gdjdjm vbbnsh jhjjsm jhsj
 		 			ajdhgjdhgjdhgdjghdjgdj...
 		 		</p>
+
 	 		  
 	 		  <a class="date" href=""><img src="images/News_icon.png">January 5 2015</a>
 	 		<p class="description2">
@@ -131,14 +145,19 @@
  	</div>
 
 
- 	<div class="mainHead">
-	 	<span >Events<hr></span>
-	 		  <img class="contentImage" src="images/IMG_3048.jpeg">
-	 		  <a class="date" href=""><img src="images/Events_icon.png">January 5 2015</a>
+ 	
+
+
+ 			<div class="mainHead">
+	 			<h2 ><a href="">Events</a></h2>
+	 		  	<img class="contentImage" src="images/IMG_3048.jpeg">
+	 		  	<a class="date" href=""><img src="images/Events_icon.png">January 5 2015</a>
+
 		 		<p class="description">
 		 			Lsknn chjdhs phjjgs kgndj werttw sjdjjhdjjdjd mzvnmm gdjdjm vbbnsh jhjjsm jhsj
 		 			ajdhgjdhgjdhgdjghdjgdj...
 		 		</p>
+
 	 		 
 	 		  <a class="date" href=""><img src="images/Events_icon.png">January 5 2015</a>
 	 		<p class="description2">
@@ -148,14 +167,17 @@
 	 		<a class="moreClick" href=""><img src="images/Events_Viewall.png">View all events</a>
  	</div>
 
- 	<div class="mainHead">
-	 	<span >Features<hr></span>
-	 		  <img class="contentImage" src="images/IMG_3048.jpeg">
-	 		  <a class="date" href=""><img src="images/Features_icon.png"> January 5 2015</a>
+ 	
+ 			<div class="mainHead">
+	 			<h2 ><a href="">Features</a></h2>
+	 		 	<img class="contentImage" src="images/IMG_3048.jpeg">
+	 		 	<a class="date" href=""><img src="images/Features_icon.png">January 5 2015</a>
+
 		 		<p class="description">
 		 			Lsknn chjdhs phjjgs kgndj werttw sjdjjhdjjdjd mzvnmm gdjdjm vbbnsh jhjjsm jhsj
 		 			ajdhgjdhgjdhgdjghdjgdj...
 		 		</p>
+
 	 		 
 	 		  <a class="date" href=""><img src="images/Features_icon.png"> January 5 2015</a>
 	 		<p class="description2">
@@ -167,7 +189,97 @@
 
  </div>
 	
-	       <!-- FOOTER -->
+	      
+
+
+	<!--ALERTS,TESTIMONIAL VIDEOS,LEARNING AND WORKSHOP-->
+
+	    <div id="contentMain">
+	    	<div class="contentFirst">
+	    		<img class="iconImage" src="images/alert_ico.png">
+
+	    		<h4><a class="contentHeading" href="#">Alerts</a></h4>
+	    		<div class="innerWrapper">
+	    			<div class="innerContent">
+	    				<!-- <div id="imageWrapper"> -->
+	    					<img class="innerDivPic"src="images/Scenario.png">
+	    				<!--	<img id="videoPlay" src="images/video_overlay.png">-->
+	    			   <!-- </div> -->
+	    				<span id="innerDivHeading">November 7 2010 </span>
+	    				<p id="innerDivDescription">Call for papers:9th Annual Interna-<br>tional Conference on Public Policy<br>
+	    					and Management</p>
+	    			</div>
+	    			<div class="innerContent">
+	    				<img class="innerDivPic"src="images/Scenario.png">
+	    				<div class="innerDivPicSummary">
+	    				<span id="innerDivHeading">December 25 2010 </span>
+	    				<p id="innerDivDescription">Call for papers:9th Annual Interna-<br>tional Conference on Public Policy<br>
+	    					and Management</p>	
+	    				</div>	
+	    			</div>	
+	    		</div>		
+	    	</div>
+	    	<div class="contentMiddle">
+	    		<img class="iconImage" src="images/testimonials_ico.png">
+	    		<h4><a class="contentHeading" href="#">Testimonial Videos</a></h4>
+	    		<div class="innerWrapper">
+	    			<div class="innerContent2">
+	    			<img class="innerDivPic"src="images/Scenario.png">
+	    			<p id="innerDivDescription">Call for papers:9th Annual Interna-<br>tional Conference on Public Policy<br>
+	    					and Management</p>	
+
+	    			</div>
+	    			<div class="innerContent2">
+	    			<img class="innerDivPic"src="images/Scenario.png">		
+	    			<p id="innerDivDescription">Call for papers:9th Annual Interna-<br>tional Conference on Public Policy<br>
+	    					and Management</p>	
+
+	    			</div>	
+	    		</div>
+	    	</div>
+	    	<div class="contentFirst">
+	    		<img class="iconImage" src="images/learnworkshop_ico.png">
+	    		<h4><a class="contentHeading" href="#">Learning & workshop</a></h4>
+	    		<div class="innerWrapper">
+	    			<div class="innerContent">
+	    				<img class="innerDivPic"src="images/Scenario.png">
+	    				<span id="innerDivHeading">November 7 2010 </span>
+	    				<p id="innerDivDescription">Call for papers:9th Annual Interna-<br>tional Conference on Public Policy<br>
+	    					and Management</p>
+	    			</div>
+	    			</div>
+	    			<div class="innerContent">
+	    				<img class="innerDivPic"src="images/Scenario.png">
+	    				<span id="innerDivHeading">November 7 2010 </span>
+	    				<p id="innerDivDescription">Call for papers:9th Annual Interna-<br>tional Conference on Public Policy<br>
+	    					and Management</p>
+	    			</div>
+	    			</div>	
+                </div>
+	    	</div>
+
+
+        </div>
+
+    <!--BOTTOM BANNER-->
+         <div id="contentMain">
+         	<div id="firstBanner">
+         		<a id="bannerHeading" href="#">Prospective<br>Students</a>
+         		<img class="bottomBannerImage" src="images/Prospective_students.png">
+         	</div>
+         	<div id="secondBanner">
+         		<a id="bannerHeading" href="#">Publications</a>
+         		<img class="bottomBannerImage" src="images/Publications.png">
+         	</div>
+         	<div id="thirdBanner">
+         		<a id="bannerHeading" href="#">Media<br>Room</a>
+         		<img class="bottomBannerImage" src="images/Media_Room.png">
+         	</div>
+         </div>	
+
+	<!-- FOOTER -->
+
+
             <footer>
            		<div id="foot">
 	    			<div id="title">
@@ -217,6 +329,39 @@
        				<span class="bottomNav">Terms & conditions</span> <span class="bottomNav"> Contact Us</span></h5>
        			</div>
     		</footer>
+    		<!-- code for slider -->
+        <script>
+        var step = 0;
+		var whichimage = 0;
+
+		function slideit(){
+ 
+		 if (!document.images)
+  		return;
+ 		document.getElementById('slide').src = slideimages[step].src;
+ 		whichimage = step;
+		 if (step<2)
+ 		 step++;
+		 else
+ 		 step=0;
+
+ 		setTimeout("slideit()",2500)
+		}
+
+		function slidelink(){
+		 if (whichimage == 0)
+  		window.location = "images/DSC_0266.jpeg";
+		 else if (whichimage == 1)
+ 		 window.location = "images/IMG_3146.jpeg";
+		 else if (whichimage == 2)
+ 		 window.location = "images/IMG_3048.jpeg";
+			}
+
+		slideit();
+        </script>
+
+
+
 	</body>
 
 </html>
