@@ -22,6 +22,24 @@
     font-family: OpenSansRegular;
     src: url(../fonts/Open Sans/OpenSans-Regular.ttf);
 }
+@font-face{
+    font-family: georgiait;
+    src: url(../fonts/Georgia/georgiai.ttf);
+}
+@font-face{
+    font-family: georgiaz.ttf;
+    src: url(../fonts/Georgia/georgiaz.ttf);
+}
+@font-face{
+    font-family: helveticaNeue.ttf;
+    src: url(../fonts/Helvetica/HelveticaNeueLight.ttf);
+}
+@font-face{
+    font-family: helveticaNeueBold.ttf;
+    src: url(../fonts/Helvetica/helvetica-neue-bold.ttf);
+}
+
+
 
 
 
@@ -78,7 +96,7 @@ header
 
 #headerMenu
 {
-	margin-top: 2%;
+	margin-top: 3.5%;
 	float:right;
 	clear: both;
 	width: 36%;
@@ -215,15 +233,18 @@ header
     text-decoration-color: #77C3F9;
 }
 
+/*-------------------------------------------------------------*/
 
 
+
+/*--------------NEWS,EVENTS,FEATURES---------------------------*/
 #contentMain {
     width: 1024px;
     margin: 0 auto;
 }
 .mainHead {
      float: left;
-    width: 333px;
+     width: 333px;
      margin-right: 8px;
 }
 
@@ -243,17 +264,178 @@ header
     padding: 20px 0;
 }
 
+/*--------------ALERTS,TESTIMONIALS,LEARNING---------------------------*/
 
+.contentFirst
+{
+    border-top: 4px solid #0079F0;
+    float: left;
+    width:333px;
+    margin-right: 8px;
+    background-color:#00A0FA; 
+    margin-bottom:5px;
+    border-radius: 6px;
+    margin-top:19px;
+}
+.contentMiddle
+{
+     margin-top:19px;
+    border-top: 4px solid #00A0FA;
+    float: left;
+    width:333px;
+    margin-right: 8px;
+    background-color:#0079F0;
+    margin-bottom:5px;
+    border-radius: 6px; 
+}
 
+.iconImage
+{
+   margin-top:7px;
+  float: left;
+  margin-left: 3px;
+}
+.contentHeading
+{
+    margin-top:7px;
+    float:left;
+    font-size: 27px;
+    font-family:callibri; 
+    color: #ffffff;
+}
+.innerWrapper
+{
+    margin:50px 3px 9px 3px;
+}
+.innerContent
+{
+    width:315px;
+    height: 105px;
+    background-color: #0097E5;
+    margin-bottom: 8px;
+    margin-left: 6px;
+    margin-top: 8px;
+    border-radius: 3px;
+}
+.innerContent2
+{
+    width:315px;
+    height: 105px;
+    background-color: #009AFA;
+    margin-bottom: 6px;
+    margin-left: 6px;
+    margin-top: 8px;
+    border-radius: 3px;
+}
+.innerDivPicSummary
+{
+    float:left;
+}
+.innerDivPic
+{
+    width:83px;
+    height: 83px;
+    margin:10px;
+    float: left;
+}
+#innerDivHeading
+{
+   font-family:  georgiaz.ttf;
+   font-size:14px; 
+   color: #ffffff;
+}
+#innerDivDescription
+{
+    font-family: helveticaNeue.ttf;
+    font-size: 11px;
+    color: #ffffff;
 
+}
+#innerDiv2Description
+{
+    font-family: helveticaNeueBold.ttf;
+    font-size: 13px;
+    color: #ffffff;
 
+}
+#imageWrapper
+{
+    position: relative;
+}
+#videoPlay
+{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
 
+/*------------BOTTOM BANNER-----------------------*/
+ #firstBanner
+ {
+    float: left;
+    width:29.39%;
+    height: 99px;
+    background-color: #FF922C;
+    margin-right: 8px;
+    margin-bottom: 29px;
+    margin-top: 31px;
+    border-radius: 4px;
+    padding:16px;
+    z-index: -1;
+    position: relative;
+ 
+ }
+ #secondBanner
+ {
+    float: left;
+    width:29.39%;
+    height: 99px;
+    background: -webkit-linear-gradient( #F6421B,#CD3916);
+    background: -o-linear-gradient( #F6421B,#CD3916); 
+    background: -moz-linear-gradient( #F6421B,#CD3916); 
+    background: linear-gradient( #F6421B,#CD3916);
+    margin-right: 8px;
+    margin-bottom: 29px;
+    margin-top: 31px;
+    border-radius: 4px;
+    padding:16px;
+    z-index: -1;
+    position: relative;
+ }
+ #thirdBanner
+ {
+    float: left;
+    width:29.39%;
+    height: 99px;
+    background: -webkit-linear-gradient( #00C0ED,#00ABD1);
+    background: -o-linear-gradient( #00C0ED,#00ABD1); 
+    background: -moz-linear-gradient(#00C0ED,#00ABD1); 
+    background: linear-gradient( #00C0ED,#00ABD1);
+    margin-right: 8px;
+    margin-bottom: 29px;
+    margin-top: 31px;
+    border-radius: 4px;
+    padding:16px;
+    z-index: -1;
+    position: relative;
+ 
+ }
+ #bannerHeading 
+ {
+   text-decoration: none;
+   font-family:callibrib;
+   font-size: 36px; 
+   color: #ffffff;
 
+ }
 
-
-
-
-
+.bottomBannerImage
+{
+    float:right;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
 
 
 
