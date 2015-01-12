@@ -1,3 +1,34 @@
+
+#sliderImageDescription
+{
+    background: -webkit-linear-gradient(left, #ff5148, #ff3f58); 
+    background: -o-linear-gradient(right, #ff5148, #ff3f58);
+    background: -moz-linear-gradient(right, #ff5148, #ff3f58);
+    background: linear-gradient(to right, #ff5148, #ff3f58);
+    float: left;
+    height: 427px;
+    padding: 18px 15px 0px 15px;
+    width: 34.69%;
+}
+#sliderImageDescription p
+{
+    font-family:OpenSans;
+    font-size: 16px;
+    color: #FEFEFE;
+    margin-bottom: 17px;
+}
+#moreRead
+{
+	font-family:OpenSans;
+    font-size: 16px;
+    color: #FEFEFE;
+    text-decoration: underline;
+    -moz-text-decoration-color: #FFA6A1;
+    text-decoration-color: #FFA6A1;
+}
+
+
+/*---- side navigation links-----*/
 .navLinks
 {
   	
@@ -21,8 +52,9 @@
 }
 #aboutLinks
 {
-	float: right;
-	width:29%;
+	float: left;
+	margin-left: 12px;
+	width:35%;
 }
 #aboutHeading
 {
