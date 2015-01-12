@@ -3,16 +3,16 @@
 
 
 @font-face{
-    font-family: callibrib;
-    src: url(../fonts/calibri/calibrib.ttf);
+	font-family: callibrib;
+	src: url(../fonts/calibri/calibrib.ttf);
 }
 @font-face{
-    font-family: callibriit;
-    src: url(../fonts/calibri/calibrii.ttf);
+	font-family: callibriit;
+	src: url(../fonts/calibri/calibrii.ttf);
 }
 @font-face{
-    font-family: callibri;
-    src: url(../fonts/calibri/calibri.ttf);
+	font-family: callibri;
+	src: url(../fonts/calibri/calibri.ttf);
 }
 
 @font-face {
@@ -97,32 +97,32 @@
 
 .wrapper
 {
-    margin:0 auto;
-    width:1024px;
-    position: relative;
+	margin:0 auto;
+	width:1024px;
+	position: relative;
     clear: both;
 }
 header
 {
-    height: auto;
-    float: left;
-    margin-top: 10px;
-    position: relative;
-    width:100%;
+	height: auto;
+	float: left;
+	margin-top: 10px;
+	position: relative;
+	width:100%;
 }
 
 
 #searchBox
 {
-    background-repeat: no-repeat;
-    float: right;
-    margin-top: 2%;
-    background-image: url(../images/search_icon.png);
-    background-position: 96% 34%; 
-    border-radius: 8px;
-    border: 2px solid #BFBF9E;
-    height: 5%;
-    clear:both;
+	background-repeat: no-repeat;
+	float: right;
+	margin-top: 2%;
+	background-image: url(../images/search_icon.png);
+	background-position: 96% 34%; 
+	border-radius: 8px;
+	border: 2px solid #BFBF9E;
+	height: 5%;
+	clear:both;
 }
 #searchBox::-webkit-input-placeholder {
     font-family: 'callibri';
@@ -143,54 +143,54 @@ header
 
 #headerMenu
 {
-    margin-top: 3.5%;
-    float:right;
-    clear: both;
-    width: 36%;
+	margin-top: 3.5%;
+	float:right;
+	clear: both;
+	width: 36%;
 }
 #headerMenu  a
 {
-    text-decoration: none;
-    font-family:callibri;
-    color:#5E5E52;
-    font-size: 14px;
-    
+	text-decoration: none;
+	font-family:callibri;
+	color:#5E5E52;
+	font-size: 14px;
+	
 }
 #headerMenu  li
 {
-    float:left;
-    border-right: 0.25px solid #5E5E52;
+	float:left;
+	border-right: 0.25px solid #5E5E52;
     list-style-type: none;
 
-    padding: 0 2%;
+	padding: 0 2%;
 }
-     
+	 
 .socialIcon_top
 
 {
-    margin-top:3%;
-    float:right;
+	margin-top:3%;
+	float:right;
 }
 .socialIcon
 {
-    width: 33px;
-    height: 31px;
+	width: 33px;
+	height: 31px;
 }
 #youtube
 {
-   background : url(../images/socialIcon_top.png) 386px 296px;  
+   background : url(../images/socialIcon_top.png) 386px 296px;	
 }
 #facebook
 {
-    background : url(../images/socialIcon_top.png) 354px 296px;
+	background : url(../images/socialIcon_top.png) 354px 296px;
 }
 #instagram
 {
-    background: url(../images/socialIcon_top.png) 323px 296px;
+	background: url(../images/socialIcon_top.png) 323px 296px;
 }
 #twitter
 {
-    background: url(../images/socialIcon_top.png) 289px 296px;
+	background: url(../images/socialIcon_top.png) 289px 296px;
 }
 /*-------------------------------------------------*/
 
@@ -198,10 +198,10 @@ header
 /*---------------TOP MENU-------------------------*/
 #topMenu
 {
-    width: 1024px;
-    margin-left: 0px;
-    margin-top:5px; 
-    background: url(../images/topmenu_bg.png);
+	width: 1024px;
+	margin-left: 0px;
+	margin-top:5px; 
+	background: url(../images/topmenu_bg.png);
     background-repeat: repeat;
     height: 50px;
     float:left;
@@ -214,7 +214,7 @@ header
 
 .navLink
 {
-    
+  	
   float: left;
   font-family:callibri !important; 
   font-size: 16px;
@@ -245,7 +245,7 @@ header
     float: left;
     list-style-type: none;
     
-    
+	
 }
 
 .subMenu > li {
@@ -339,15 +339,16 @@ header
     padding: 10px 0;
     text-decoration: none;
 }
-
-.mainHead hr {
-    background: none repeat scroll 0 0 #000000;
-    float: right;
-    height: 12px;
-    margin-top: 11px;
-    opacity: 0.1;
-    width: 234px;
+.strip {
+    background: none repeat scroll 0 0 #3f3f3f;
+    height: 10px;
+    position: absolute;
+    top: 17px;
+    width: 98%;
+    z-index: -1;
 }
+
+
 .contentImage{
     width: 333px;
     height: 223px;
@@ -586,10 +587,10 @@ header
     font-size: 18px;
 }
 #otherNav{
-    padding: 0 15px;
+	padding: 0 15px;
 }
 #title{
-    margin: 0 auto;
+	margin: 0 auto;
     width: 1024px;
     
 }
@@ -676,7 +677,21 @@ footer {
 
 
 @media only screen and (min-width: 320px)and (max-width:480px){
-
+#topMenu{
+    display: none;
+}
+.socialIcon_top{
+    display: none;
+}
+#headerMenu{
+    display: none;
+}
+#searchBox{
+    display: none;
+}
+.mobContent{
+    display: none;
+}
 .sliderPic {
     float: left;
     height: 10%;
@@ -735,14 +750,7 @@ footer {
     text-decoration: none;
     font-size: 20px;
 }
-.mainHead hr {
-    background: none repeat scroll 0 0 #000000;
-    float: right;
-    height: 11px;
-    margin-top: 12px;
-    opacity: 0.1;
-    width: 234px;
-}
+
 #contentMain {
     float: left;
     width: 100%;
