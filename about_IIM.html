@@ -7,15 +7,16 @@
 			slideimages[2] = new Image()
 			slideimages[2].src = "images/IMG_3048.jpeg"
 
-		</script>	
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+		</script>
 		 <script src="js/slider.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/about_iim.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		   <title>
-		   IIM-B Home
+		   About-IIM-B 
 		   </title>
 	</head>
-<body>
+	<body>
 	    <div class="wrapper">	
 
 	<!-- HEADER -->
@@ -28,7 +29,7 @@
 						<li><a href="#">ALUMNI</a></li>
 						<li><a href="#">LIBRARY</a></li>				
 						<li><a href="#">PARTNERSHIPS</a></li>
-						<li style="border-right:none;"><a href="" >OPP0RTUNITIES</a></li>
+						<li style="border-right:none;"><a href="#" >OPP0RTUNITIES</a></li>
 					</ul>
                 </div> 
                 <div class="socialIcon_top">
@@ -38,18 +39,14 @@
 						<a href="#"><img  class="socialIcon" id="instagram"  src="images/img-trans.png"></a>
 						<a href="#"><img class="socialIcon" id="twitter" src="images/img-trans.png"></a>
 		        </div>
-		        <a id="searchLogo" href=""><img src="images/search_icon.png" alt="logo" ></a>
-	            <a  href=""><i class="icon-menu-1"></i></a>
 	           
 			</header>
-
-	<!-- TOP MENU -->
-
-			<nav id="topMenu">
+		<!--TOPMENU-->
+	        <nav id="topMenu">
 					<ul>
-						<li class="navMenu"><a class="navLink" href="">ABOUT IIMB</a>
+						<li class="navMenu"><a class="navLinks" href="">Life@IIMB</a>
 							<ul class="subMenu">
-	                            <li><a href="about_IIM.html">LIFE@IIMB</a></li>
+	                            <li><a href="#">LIFE@IIMB</a></li>
 	                            <li><a href="#">AWARDS & RECOGNITION</a></li>
 	                            <li><a href="#">PROMINENT PARTNERS/STAKEHOLDERS TESTIMONIALS</a></li>
 	                            <li><a href="#">MEDIA ROOM</a></li>
@@ -58,7 +55,7 @@
 	                            <li><a href="#">BOARD OF GOVERNORS</a></li>
 	                        </ul>
                         </li>    
-						<li class="navMenu"><a class="navLink"href="">ADMISSIONS</a>
+						<li class="navMenu"><a class="navLinks"href="">Awards & Recognition</a>
 						<ul class="subMenu">
 	                            <li><a href="#">LIFE@IIMB</a></li>
 	                            <li><a href="#">AWARDS & RECOGNITION</a></li>
@@ -69,7 +66,7 @@
 	                            <li><a href="#">BOARD OF GOVERNORS</a></li>
 	                        </ul>
 	                    </li>
-						<li class="navMenu"><a class="navLink"href="">EXECUTIVE EDUCATION</a>
+						<li class="navMenu"><a class="navLinks"href="">Prominent Partners/Stakeholders Testimonials</a>
 						<ul class="subMenu">
 	                            <li><a href="#">LIFE@IIMB</a></li>
 	                            <li><a href="#">AWARDS & RECOGNITION</a></li>
@@ -80,7 +77,7 @@
 	                            <li><a href="#">BOARD OF GOVERNORS</a></li>
 	                        </ul>
 	                    </li>
-						<li class="navMenu"><a class="navLink"href="">FACULTY AND RESEARCH</a>
+						<li class="navMenu"><a class="navLinks"href="">Media Room</a>
 						<ul class="subMenu">
 	                            <li><a href="#">LIFE@IIMB</a></li>
 	                            <li><a href="#">AWARDS & RECOGNITION</a></li>
@@ -91,7 +88,29 @@
 	                            <li><a href="#">BOARD OF GOVERNORS</a></li>
 	                        </ul>
 	                    </li>
-						<li class="navMenu"><a class="navLink"href="">CENTER OF EXCELLENCE</a>
+						<li class="navMenu"><a class="navLinks"href="">Affirmative Action</a>
+						<ul class="subMenu">
+	                            <li><a href="#">LIFE@IIMB</a></li>
+	                            <li><a href="#">AWARDS & RECOGNITION</a></li>
+	                            <li><a href="#">PROMINENT PARTNERS</a></li>
+	                            <li><a href="#">MEDIA ROOM</a></li>
+	                            <li><a href="#">AFFIRMATIVE ACTION</a></li>
+	                            <li><a href="#">TESTIMONIA</a></li>
+	                            <li><a href="#">BOARD OF GOVERNORS</a></li>
+	                    </ul>
+	                    </li>
+	                    <li class="navMenu"><a class="navLinks"href="">Gender Sensitivity Committee</a>
+						<ul class="subMenu">
+	                            <li><a href="#">LIFE@IIMB</a></li>
+	                            <li><a href="#">AWARDS & RECOGNITION</a></li>
+	                            <li><a href="#">PROMINENT PARTNERS</a></li>
+	                            <li><a href="#">MEDIA ROOM</a></li>
+	                            <li><a href="#">AFFIRMATIVE ACTION</a></li>
+	                            <li><a href="#">TESTIMONIA</a></li>
+	                            <li><a href="#">BOARD OF GOVERNORS</a></li>
+	                        </ul>
+	                    </li>
+						<li class="navMenu" style="border-right:none"><a class="navLinks"href="">Board of Governers</a>
 						<ul class="subMenu">
 	                            <li><a href="#">LIFE@IIMB</a></li>
 	                            <li><a href="#">AWARDS & RECOGNITION</a></li>
@@ -103,185 +122,54 @@
 	                        </ul>
 	                    </li>
 						
-						
 					</ul>	
             </nav>
-        </div>
+             <!-- SLIDER-->
 
-    <!-- SLIDER-->
-       <div id="contentMain">
         <div class="imageSlider">
-        	<div class="sliderPicDescription">
+        	<div id="sliderImageDescription">
         		<span id="sliderTitle">Earth Day Celebrations at IIMB</span>
         		<p>On Earth Day at IIMB,environmentalist Suresh 
         			 Heblikar rues that all districts in the State aspire to
                      Banglore's "growth" model but hopes young
                      minds,like those at IIMB,can reverse this trend....
                         	  </p>
-        		<a href="#" id="readMore">Read More</a><br>
+        		<a href="#" id="moreRead">Read More</a><br>
 
         		<a href="#"><img id="bannerNavIcon" src="images/banner_navigation.png"></a>
         	</div>
         	
         	<a href="javascript:slidelink()"><img  class="sliderPic" src="images/DSC_0266.jpeg" id="slide"></a>
         </div>	
-     </div>
-    <!--  NEWS,EVENTS,FEATURES -->
-
-        <div id="contentMain">
- 	
-          <div id="alertWrapper">
- 			<div class="mainHead">
-	 			<span >News</span><div class="strip"></div>
-	 		 	<img class="contentImage"src="images/IMG_3048.jpeg">
-	 		 	<a class="date" href=""><img src="images/News_icon.png">January 5 2015</a>
-
-		 		<p class="description">
-		 		Lsknn chjdhs phjjgs kgndj werttw sjdjjhdjjdjd mzvnmm gdjdjm vbbnsh jhjjsm jhsj
-		 			ajdhgjdhgjdhgdjghdjgdj...
-		 		</p>
-
-	 		  
-	 		  <a class="date" href=""><img src="images/News_icon.png">January 5 2015</a>
-	 		<p class="description2">
-	 			Lsknn chjdhs phjjgs kgndj werttw sjdjjhdjjdjd mzvnmm gdjdjm vbbnsh jhjjsm jhsj
-		 			ajdhgjdhgjdhgdjghdjgdj...
-	 		</p>
-	 		<a class="moreClick" href=""><img src="images/News_Viewall.png">View all news</a>
- 	    </div>
 
 
- 	
+        <!--CONTENTS-->
 
-
- 			<div class="mainHead">
-	 			<span >Events</span><div class="strip"></div>
-	 		  	<img class="contentImage" src="images/IMG_3048.jpeg">
-	 		  	<a class="date" href=""><img src="images/Events_icon.png">January 5 2015</a>
-
-		 		<p class="description">
-		 			Lsknn chjdhs phjjgs kgndj werttw sjdjjhdjjdjd mzvnmm gdjdjm vbbnsh jhjjsm jhsj
-		 			ajdhgjdhgjdhgdjghdjgdj...
-		 		</p>
-
-	 		 
-	 		  <a class="date" href=""><img src="images/Events_icon.png">January 5 2015</a>
-	 		<p class="description2">
-	 			Lsknn chjdhs phjjgs kgndj werttw sjdjjhdjjdjd mzvnmm gdjdjm vbbnsh jhjjsm jhsj
-		 			ajdhgjdhgjdhgdjghdjgdj...
-	 		</p>
-	 		<a class="moreClick" href=""><img src="images/Events_Viewall.png">View all events</a>
- 	     </div>
-
- 	
- 			<div class="mainHead">
-	 			<span >Features</span><div class="strip"></div>
-	 		 	<img class="contentImage" src="images/IMG_3048.jpeg">
-	 		 	<a class="date" href=""><img src="images/Features_icon.png">January 5 2015</a>
-
-		 		<p class="description">
-		 			Lsknn chjdhs phjjgs kgndj werttw sjdjjhdjjdjd mzvnmm gdjdjm vbbnsh jhjjsm jhsj
-		 			ajdhgjdhgjdhgdjghdjgdj...
-		 		</p>
-
-	 		 
-	 		  <a class="date" href=""><img src="images/Features_icon.png"> January 5 2015</a>
-	 		<p class="description2">
-	 			Lsknn chjdhs phjjgs kgndj werttw sjdjjhdjjdjd mzvnmm gdjdjm vbbnsh jhjjsm jhsj
-		 			ajdhgjdhgjdhgdjghdjgdj...
-	 		</p>
-	 		<a class="moreClick" href=""><img src="images/Features_Viewall.png">View all features</a>
- 	      </div>
- 	   </div>   
-
- </div>
-	
-	      
-
-
-	<!--ALERTS,TESTIMONIAL VIDEOS,LEARNING AND WORKSHOP-->
-
-	    <div id="contentMain">
-	      <div class="alertWrapper">
-	    	<div class="contentFirst">
-	    		<img class="iconImage" src="images/alert_ico.png">
-
-	    		<h4><a class="contentHeading" href="#">Alerts</a></h4>
-	    		<div class="innerWrapper">
-	    			<div class="innerContent">
-	    				<!-- <div id="imageWrapper"> -->
-	    					<img class="innerDivPic"src="images/Scenario.png">
-	    				<!--	<img id="videoPlay" src="images/video_overlay.png">-->
-	    			   <!-- </div> -->
-	    			   <div id="innerBody">
-	    				<span id="innerDivHeading">November 7 2010 </span>
-	    				<p id="innerDivDescription">Call for papers:9th Annual International Conference on Public Policy
-	    					and Management</p>
-	    			</div>	
-	    			</div>
-	    			<div class="innerContent">
-	    				<img class="innerDivPic"src="images/Scenario.png">
-	    				<div class="innerDivPicSummary">
-	    				<div id="innerBody">
-	    				<span id="innerDivHeading">December 25 2010 </span>
-	    				<p id="innerDivDescription">Call for papers:9th Annual International Conference on Public Policy
-	    					and Management</p>	
-	    				
-	    				</div>	 
-	    			</div>	
-	    			</div>	
-	    		 </div>
-	    		</div>		
-	    	</div>
-	    	<div class="contentMiddle">
-	    		<img class="iconImage" src="images/testimonials_ico.png">
-	    		<h4><a class="contentHeading" href="#">Testimonial Videos</a></h4>
-	    		<div class="innerWrapper">
-	    			<div class="innerContent2">
-	    			<img class="innerDivPic"src="images/Scenario.png">
-	    			<p id="innerDivDescription">Call for papers:9th Annual International Conference on Public Policy
-	    					and Management</p>	
-
-	    			</div>
-	    			<div class="innerContent2">
-	    			<img class="innerDivPic"src="images/Scenario.png">		
-	    			<p id="innerDivDescription">Call for papers:9th Annual International Conference on Public Policy
-	    					and Management</p>	
-
-	    			</div>	
-	    		</div>
-	    	</div>
-	    	<div class="contentFirst">
-	    		<img class="iconImage" src="images/learnworkshop_ico.png">
-	    		<h4><a class="contentHeading" href="#">Learning & workshop</a></h4>
-	    		<div class="innerWrapper">
-	    			<div class="innerContent">
-	    				<img class="innerDivPic"src="images/Scenario.png">
-	    				<div id="innerBody">
-	    				<span id="innerDivHeading">November 7 2010 </span>
-	    				<p id="innerDivDescription">Call for papers:9th Annual International Conference on Public Policy
-	    					and Management</p>
-	    			 </div>
-	    			</div>
-	    			</div>
-	    			<div class="innerContent">
-	    				<img class="innerDivPic"src="images/Scenario.png">
-	    				<div id="innerBody">
-	    				<span id="innerDivHeading">November 7 2010 </span>
-	    				<p id="innerDivDescription">Call for papers:9th Annual International Conference on Public Policy
-	    					and Management</p>
-	    			</div>
-	    			</div>
-	    			</div>	
-                </div>
-	    	</div>
-
-
-        </div>
-
-    <!--BOTTOM BANNER-->
+            <div class="aboutContent">
+            	<div id="aboutInstitute">
+            		<span id="aboutHeading">About the Institute</span>
+            		<p id="aboutDescription">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem
+            		</p>
+            		<p id="aboutDescription"> Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere 
+            		</p>
+            		<p id="aboutDescription">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur
+            		</p>	
+            	</div>
+            	<nav id="aboutLinks">
+            		<ul>
+            			<li class="sideLinks" style="border-top:1px solid #D5CDC9;"><a href="#"><img class="arrowImage"src="images/arrows.png">About the Institute</a></li>
+            			<li class="sideLinks" ><a href="#"><img class ="arrowImage"src="images/arrows.png">Life@IIMB</a></li>
+            			<li class="sideLinks" ><a href="#"><img class="arrowImage"src="images/arrows.png">Awards & Recognition</a></li>
+            			<li class="sideLinks"><a href="#"><img class ="arrowImage"src="images/arrows.png">Prominent Partners / Stakeholders Testimonials</a></li>
+            			<li class="sideLinks"><a href="#"><img class ="arrowImage"src="images/arrows.png">Media Room</a></li>
+            			<li class="sideLinks"><a href="#"><img class="arrowImage"src="images/arrows.png">Affirmative Action</a></li>
+            			<li  class="sideLinks" style="border-bottom:none;"><a href="#" ><img class ="arrowImage"src="images/arrows.png">Board of Governers</a></li>
+            		</ul>	
+            	<nav>	
+            </div>	
+              <!--BOTTOM BANNER-->
          <div id="contentMain">
-         	 <div class="alertWrapper">
+         	<div id="alertWrapper">
          	<div id="firstBanner">
          		<a id="bannerHeading" href="#">Prospective<br>Students</a>
          		<img class="bottomBannerImage" src="images/Prospective_students.png">
@@ -294,21 +182,20 @@
          		<a id="bannerHeading" href="#">Media<br>Room</a>
          		<img class="bottomBannerImage" src="images/Media_Room.png">
          	</div>
+         </div>
          </div>	
-         </div>	
-
+     </div>
 	<!-- FOOTER -->
 
 
-           <footer>
+            <footer>
            		<div id="foot">
 	    			<div id="title">
-	    				<div id="topFooter">
 		        		<div id="about">
 		        			<h4 class="footTitle">About Us</h4>
 		        			<p><br>
-		        			A 100-acre oasis in south Bangalore,
-		        			the indian institute of Management Bangalore(IIMB), with  its all-stone architecture..<br>
+		        			A 100-acre oasis in south Bangalore,<br>
+		        			the indian institute of Management<br> Bangalore(IIMB), with <br> its all-stone architecture..<br>
 		        			<span id="more">Readmore...</span>
 		        			</p>
 		       		    </div>
@@ -325,47 +212,34 @@
 		        		</div>
 		        		<div id="connect">
 		        			<h4 class="footTitle">Connect with us</h4>
-		        			<span><br>We're on Social Networks.Follow us &amp; get in touch.</span>
+		        			<span><br>We're on Social Networks.Follow us & get <br> in touch.</span>
 		        			<ul id="socialNav">
-
 	        	       			 <li class="socialIcon"><a href="#" id="yt"></a></li>
 							     <li class="socialIcon"><a href="#" id="fb"></a></li>
 								 <li class="socialIcon"><a href="#" id="in"></a></li>
 								 <li class="socialIcon"><a href="#" id="twt"></a></li>
-
 							</ul>
 		       			 </div>
 		        		<div id="contact">
 		        			<h4 class="footTitle">Contact</h4>
 		        			<h4><br>Indian Institute of Management Bangalore</h4>
 		        			<p>
-		        				Bannerghatta Road,Bangalore,India
-		        				Pin Code:560 076
-		        				Phone Number:+91-80-26582450/26993996
+		        				Bannerghatta Road,Bangalore,India<br>
+		        				Pin Code:560 076<br>
+		        				Phone Number:+91-80-26582450/26993996<br>
 		        				E-mail:info@iimb.ernet.in...
 		        			</p>
 		       			 </div>
-		       			</div>
 		   			</div>    
       			</div>
       			<div id="bottomFoot">
-      				<div id="title">
-
-       				 
-       	
-       				<h5><span id="copyRight">(c)copyright2014 IIMB,All rights reserved</span> 
-       					<div id="bottomNav">
-       					<span>About Us</span> 
-       					<span >Delivery & returns </span>
-       				    <span >Terms & conditions</span>
-       				    <span > Contact Us</span></h5>
-       				   </div>
+       				<h5><span id="copyRight">(c)copyright2014 IIMB,All rights reserved</span> <span class="bottomNav">About Us</span> <span class="bottomNav">Delivery & returns </span>
+       				<span class="bottomNav">Terms & conditions</span> <span class="bottomNav"> Contact Us</span></h5>
        			</div>
-
-       			</div>
-       			
     		</footer>
-    		<!-- code for slider -->
+
+  <!--code for slider-->
+
         <script>
         var step = 0;
 		var whichimage = 0;
@@ -398,6 +272,5 @@
 
 
 
-	</body>
-
-</html>
+     </body>
+	</html>	   
