@@ -113,3 +113,35 @@
 	margin-right: 14px;
 	
 }
+@media only screen and (min-width: 480px) and (max-width: 900px){
+    .sliderPicDescription
+    {
+        width: 32.69% !important;
+    }
+    .sliderPic
+    {
+        width: 60% !important;
+    }
+    #headerMenu
+    {
+        width: 41%;
+    }
+    #firstBanner
+    {
+      padding: 0.5%;
+      margin-left: 3%;
+    }
+    #secondBanner
+    {
+      padding: 0.5%;
+    }
+    #thirdBanner
+    {
+      padding: 0.5%;
+
+    }
+    .aboutContent{
+    	margin-left: 2%;
+    }
+    
+}
