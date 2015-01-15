@@ -193,13 +193,16 @@ header
 {
 	background : url(../images/socialIcon_top.png) 354px 296px;
 }
-#instagram
+#linkedin
 {
 	background: url(../images/socialIcon_top.png) 323px 296px;
 }
 #twitter
 {
 	background: url(../images/socialIcon_top.png) 289px 296px;
+}
+.socialIcon_top a {
+    float: left;
 }
 /*-------------------------------------------------*/
 

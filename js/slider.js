@@ -11,16 +11,16 @@ var whichimage = 0;
 
 function slideit(){
  
- if (!document.images)
-  return;
- document.getElementById('slide').src = slideimages[step].src;
- whichimage = step;
- if (step<2)
-  step++;
- else
-  step=0;
+ // if (!document.images)
+ //  return;
+ // document.getElementById('slide').src = slideimages[step].src;
+ // whichimage = step;
+ // if (step<2)
+ //  step++;
+ // else
+ //  step=0;
 
- setTimeout("slideit()",2500)
+ // setTimeout("slideit()",2500)
 }
 
 function slidelink(){
@@ -33,3 +33,8 @@ function slidelink(){
 }
 
 slideit();
+
+// $(document).ready(function{
+	
+
+// });

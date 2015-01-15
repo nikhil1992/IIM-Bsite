@@ -1,0 +1,57 @@
+#shareContainer
+{
+	float: left;
+	width: 100%;
+	margin-bottom: 10%;
+}	
+#commentContainer
+{
+	float: left;
+	width: 100%;
+	margin-top: 16%;
+}
+#commentContainer h3
+{
+	float: left;
+	width: 30%;
+}
+
+#commentContent
+{
+	float: left;
+	width: 50%
+}
+#commentContent textarea
+{
+	margin-top: 5%;
+}
+#myTitle
+{
+	display: none;
+}
+button
+{
+	width: 142px;
+	height: 53px;
+	margin-left: 35%;
+	margin-top: 10%;
+}
+#mailContainer
+{
+  float: left;
+  width: 100%;
+  margin-top: 10%;
+}
+#mailContainer h4
+{
+	float: left;
+	width: 30%;
+	margin-top: 14px;
+
+} 
+#mailContainer a
+{
+	float: left;
+	width: 50%;
+
+} 

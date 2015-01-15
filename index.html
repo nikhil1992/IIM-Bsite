@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 	<head>
 		<script type="text/javascript">
-		var slideimages = new Array() 
-			slideimages[0].src = "images/DSC_0266.jpeg" 
-			slideimages[1] = new Image()
-			slideimages[2] = new Image()
-			slideimages[2].src = "images/IMG_3048.jpeg"
+		// var slideimages = new Array() 
+		// 	slideimages[0].src = "images/DSC_0266.jpeg" 
+		// 	slideimages[1] = new Image()
+		// 	slideimages[2] = new Image()
+		// 	slideimages[2].src = "images/IMG_3048.jpeg"
+		</script>		
+			
 
-		</script>	
+		
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		 <script src="js/slider.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		   <title>
 		   IIM-B Home
@@ -35,10 +36,10 @@
 	            <a  href=""><i class="icon-menu-1"></i></a>
                 <div class="socialIcon_top">
 						
-						<a href=""><img class="socialIcon" id="youtube" src="images/img-trans.png"></a>
-						<a href=""><img  class="socialIcon" id="facebook" src="images/img-trans.png"></a>
-						<a href=""><img  class="socialIcon" id="instagram"  src="images/img-trans.png"></a>
-						<a href=""><img class="socialIcon" id="twitter" src="images/img-trans.png"></a>
+						<a href="share.html" onclick="getId(event);" target="_blank"><img class="socialIcon" id="youtube" src="images/img-trans.png"></a>
+						<a href="share.html" onclick="getId(event);" target="_blank"><img  class="socialIcon" id="facebook" src="images/img-trans.png"></a>
+						<a href="share.html" onclick="getId(event);" target="_blank"><img  class="socialIcon" id="linkedin"  src="images/img-trans.png"></a>
+						<a href="share.html"  onclick="getId(event);" target="_blank"><img  class="socialIcon" id="twitter" src="images/img-trans.png"></a>
 		        </div>
 	           
 			</header>
@@ -49,7 +50,7 @@
 					<ul>
 						<li class="navMenu"><a class="navLink" href="">ABOUT IIMB</a>
 							<ul class="subMenu">
-	                            <li><a href="">LIFE@IIMB</a></li>
+	                            <li><a href="about_IIM.html">LIFE@IIMB</a></li>
 	                            <li><a href="">AWARDS & RECOGNITION</a></li>
 	                            <li><a href="">PROMINENT PARTNERS/STAKEHOLDERS TESTIMONIALS</a></li>
 	                            <li><a href="">MEDIA ROOM</a></li>
@@ -371,6 +372,19 @@
        				<span class="bottomNav">Terms & conditions</span> <span class="bottomNav"> Contact Us</span></h5>
        			</div>
     		</footer>
+
+
+    		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    		 <!-- <script src="js/slider.js"></script> -->
+    		<script>
+	    		function getId(event) {
+	    			console.log("shagdhga");
+					var currentId = event.currentTarget.getElementsByTagName('img')[0].getAttribute('id');
+					localStorage.setItem("s_id",currentId);
+
+				   }
+			</script>
+
     		<!-- code for slider -->
         <script>
         var step = 0;

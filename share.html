@@ -1,0 +1,144 @@
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/about_iim.css">
+	<link rel="stylesheet" type="text/css" href="css/share.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	       <title>
+		   share with us 
+		   </title>
+</head>
+<body>
+ <div class="wrapper">	
+
+	<!-- HEADER -->
+
+			<header>
+				<img id="logo" src="images/logo.png" alt="logo">
+				<input id="searchBox" type="text" placeholder ="Search">
+	            <div id="headerMenu">
+	            	<ul>
+						<li><a href="">ALUMNI</a></li>
+						<li><a href="">LIBRARY</a></li>				
+						<li><a href="">PARTNERSHIPS</a></li>
+						<li style="border-right:none;"><a href="" >OPP0RTUNITIES</a></li>
+					</ul>
+                </div> 
+                <a id="searchLogo" href=""><img src="images/search_icon.png" alt="logo" ></a>
+	            <a  href=""><i class="icon-menu-1"></i></a>
+                
+	           
+			</header>
+
+
+			<div id="shareContainer">
+				<div id="commentContainer">
+					<h3>Write your comment</h3>
+					<div id="commentContent">
+					<input type="text" placeholder="Enter your title" id="myTitle">
+					<textarea id="myText" rows="4" cols="50"></textarea>
+					</div>
+                </div>
+                
+                <button onclick="share_content();">Share</button>
+                <div id="mailContainer">
+                	<h4>Click to send a mail</h4>
+                	<a href="mailto:?subject=I wanted you to see this site&amp;body=Check out this site http://www.iimb.com." title="Share by Email"><img src="http://png-2.findicons.com/files/icons/573/must_have/48/mail.png"/></a>
+
+                </div>
+                
+                </div>	
+            </div>  
+
+     </div>     
+	        <footer>
+           		<div id="foot">
+	    			<div id="title">
+		        		<div id="about">
+		        			<h4 class="footTitle">About Us</h4>
+		        			<p><br>
+		        			A 100-acre oasis in south Bangalore,
+		        			the indian institute of Management Bangalore(IIMB), with its all-stone architecture..<br>
+		        			<span id="more">Readmore...</span>
+		        			</p>
+		       		    </div>
+		       			<div id="other">
+		        			<h4 class="footTitle">Other Links</h4>
+		        		    <ul id="otherNav">
+		        				<br><li>Publications</li>
+		        				<li>Media Room</li>
+		        				<li>Multimedia</li>
+		        				<li>Related Links</li>
+		        				<li>Alumni</li>
+		        				<li>Faculty</li>
+		        			</ul>
+		        		</div>
+		        		<div id="connect">
+		        			<h4 class="footTitle">Connect with us</h4>
+		        			<span><br>We're on Social Networks.Follow us & get <br> in touch.</span>
+		        			<ul id="socialNav">
+	        	       			 <li class="socialIcon"><a href="" id="yt"></a></li>
+							     <li class="socialIcon"><a href="" id="fb"></a></li>
+								 <li class="socialIcon"><a href="" id="in"></a></li>
+								 <li class="socialIcon"><a href="" id="twt"></a></li>
+							</ul>
+		       			 </div>
+		        		<div id="contact">
+		        			<h4 class="footTitle">Contact</h4>
+		        			<h4><br>Indian Institute of Management Bangalore</h4>
+		        			<p>
+		        				Bannerghatta Road,Bangalore,India<br>
+		        				Pin Code:560 076<br>
+		        				Phone Number:+91-80-26582450/26993996<br>
+		        				E-mail:info@iimb.ernet.in...
+		        			</p>
+		       			 </div>
+		   			</div>    
+      			</div>
+      			<div id="bottomFoot">
+       				<h5><span id="copyRight">(c)copyright2014 IIMB,All rights reserved</span> <span class="bottomNav">About Us</span> <span class="bottomNav">Delivery & returns </span>
+       				<span class="bottomNav">Terms & conditions</span> <span class="bottomNav"> Contact Us</span></h5>
+       			</div>
+    		</footer>
+    		<script>
+    		// function checkLink()
+    		// {
+    		// 	var s_id =localStorage.getItem("s_id");
+      //           console.log(s_id);
+      //           if(s_id="linkedin")
+      //           {
+    		// 	document.getElementById('myTitle').style.display = 'block';
+    		//     }
+    		//    }
+    		  function share_content()
+    		  {
+                var s_id =localStorage.getItem("s_id");
+                console.log(s_id);
+                var myText=document.getElementById("myText").value;
+                console.log(myText);
+                var siteUrl = 'http://iimb.com';
+                  var myTitle = "sample title";
+
+                if(s_id=="twitter")
+                {
+                	
+                	window.open("https://twitter.com/intent/tweet?url="+siteUrl+"&text="+myText+"");
+                }
+               else if(s_id="linkedin")
+                {
+                	
+                	// var myTitle=document.getElementById("myTitle").value;
+
+                	window.open(href="http://www.linkedin.com/shareArticle?mini=true&url="+siteUrl+"&title="+myTitle+"&summary="+myText+"&source="+siteUrl);
+                }
+               else if(s_id="facebook")
+                {
+                	window.open("https://www.facebook.com");
+                }
+               }
+
+
+    		</script>
+    </body>
+    </html>
