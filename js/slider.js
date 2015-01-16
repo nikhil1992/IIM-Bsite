@@ -11,16 +11,16 @@ var whichimage = 0;
 
 function slideit(){
  
- // if (!document.images)
- //  return;
- // document.getElementById('slide').src = slideimages[step].src;
- // whichimage = step;
- // if (step<2)
- //  step++;
- // else
- //  step=0;
+ if (!document.images)
+  return;
+ document.getElementById('slide').src = slideimages[step].src;
+ whichimage = step;
+ if (step<2)
+  step++;
+ else
+  step=0;
 
- // setTimeout("slideit()",2500)
+ setTimeout("slideit()",2500)
 }
 
 function slidelink(){
@@ -34,7 +34,47 @@ function slidelink(){
 
 slideit();
 
-// $(document).ready(function{
-	
-
-// });
+/*---for side nav links in mobile---*/
+function open_panel() {
+slideIt();
+var a = document.getElementById("sidebar");
+a.setAttribute("id", "sidebar1");
+a.setAttribute("onclick", "close_panel()");
+}
+/*
+------------------------------------------------------------
+Function to slide the sidebar form (open form)
+------------------------------------------------------------
+*/
+function slideIt() {
+var slidingDiv = document.getElementById("slider");
+var stopPosition = 0;
+if (parseInt(slidingDiv.style.right) < stopPosition) {
+slidingDiv.style.right = parseInt(slidingDiv.style.right) + 2 + "px";
+setTimeout(slideIt, 1);
+}
+}
+/*
+------------------------------------------------------------
+Function to activate form button to close the slider.
+------------------------------------------------------------
+*/
+function close_panel() {
+slideIn();
+a = document.getElementById("sidebar1");
+a.setAttribute("id", "sidebar");
+a.setAttribute("onclick", "open_panel()");
+}
+/*
+------------------------------------------------------------
+Function to slide the sidebar form (slide in form)
+------------------------------------------------------------
+*/
+function slideIn() {
+var slidingDiv = document.getElementById("slider");
+var stopPosition = -420;
+if (parseInt(slidingDiv.style.right) > stopPosition) {
+slidingDiv.style.right = parseInt(slidingDiv.style.right) - 2 + "px";
+setTimeout(slideIn, 1);
+}
+}
